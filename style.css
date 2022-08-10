@@ -1,0 +1,80 @@
+.menu {
+    background-image: url(img/cordoba_2.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url(img/Grupo\ 2.png);
+    background-position: center 1%;
+}
+
+#boton1,
+#boton2,
+#boton3 {
+    width: 200px;
+    height: 50px;
+    border: 40px 40px 40px solid #FFFFFF;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    margin: 6px auto;
+    text-decoration: none;
+    box-shadow: 0px 2px 0px 0px lightslategray;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px;
+    display: flex;
+}
+
+.grid-layout {
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+.grid-item {
+    width: 200%;
+    height: 50px;
+    border: 20px 20px 20px solid #FFFFFF;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    margin: 16px;
+    text-align: center;
+    line-height: 17px;
+    box-shadow: 2px 2px 1px 1px black;
+    padding: 5px;
+}
+
+.grid-layout a {
+    text-decoration: none;
+    color: #135189;
+    font-style: bold;
+    font-family: 'gotham', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titulo1 {
+    color: #FFFFFF;
+    font-family: 'Gotham', 'Segoe UI', Tahoma;
+}
+
+#titulo2 {
+    color: black;
+    font-family: 'Gotham', 'Segoe UI', Tahoma;
+}
+
+#titulo3 {
+    color: #FFFFFF;
+    font-family: 'Gotham', 'Segoe UI', Tahoma;
+    text-align: center;
+}
+
+#parrafo {
+    font-family: 'Gotham', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#parrafo2 {
+    color: #FFFFFF;
+    font-family: 'Gotham', 'Segoe UI', Tahoma;
+    text-align: center;
+}
