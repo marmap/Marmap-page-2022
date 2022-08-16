@@ -1,0 +1,202 @@
+.menu {
+    background-image: url(img/cordoba_2.jpg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url(img/Grupo\ 2.png);
+    background-position: center 10%;
+}
+
+#boton1,
+#boton2,
+#boton3 {
+    font-family: 'Gotham', 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif, white;
+    color: #FFFFFF;
+    background: gray;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 1px 1px 1px 1px black;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    cursor: hand;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+}
+
+#boton1,
+#boton2,
+#boton3 .a {
+    font-family: 'Gotham', 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif, white;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.grid-layout {
+    top: 10%;
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+.grid-item {
+    top: 10%;
+    width: 200%;
+    height: 50px;
+    border: 20px 20px 20px solid #FFFFFF;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    margin: 16px;
+    text-align: center;
+    line-height: 17px;
+    box-shadow: 2px 2px 1px 1px black;
+    padding: 5px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.grid-layout a {
+    text-decoration: none;
+    color: #135189;
+    font-style: bold;
+    font-family: 'gotham', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-item:hover {
+    background-color: #AE3336;
+    color: white;
+}
+
+.grid-layout a:hover {
+    color: #ffffff;
+}
+
+#titulo1 {
+    color: #FFFFFF;
+    font-family: 'Gotham', 'Segoe UI', Tahoma;
+}
+
+#titulo2 {
+    color: black;
+    font-family: 'Gotham', 'Segoe UI', Tahoma;
+}
+
+#titulo3 {
+    color: #FFFFFF;
+    font-family: 'Gotham', 'Segoe UI', Tahoma;
+    text-align: center;
+}
+
+#parrafo {
+    font-family: 'Gotham', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    left: 10px;
+    right: 150px;
+    text-align: left;
+}
+
+#parrafo2 {
+    color: #FFFFFF;
+    font-family: 'Gotham', 'Segoe UI', Tahoma;
+    text-align: center;
+}
+
+#acciones {
+    font-family: 'Gotham', 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif, white;
+    color: #FFFFFF;
+    background: gray;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 1px 1px 1px 1px black;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#mes {
+    font-family: 'Gotham', 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif, white;
+    color: #FFFFFF;
+    background: #135189;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 1px 1px 1px 1px black;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.t-container {
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.t-tabs,
+.t-contents {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 2% 0 2%;
+    box-sizing: border-box;
+}
+
+.t-tabs li {
+    color: #dedede;
+    padding: 0.5em 0.7em;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    font-size: 1.1em;
+    background: #717171;
+    border-bottom: 0;
+    min-width: 40px;
+    margin-right: 2px;
+    margin-bottom: 0 !important;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.t-tabs li:hover {
+    background-color: #545454;
+    color: #d2d2d2;
+}
+
+.t-tabs li.selected {
+    color: #458ace;
+    cursor: default;
+    background: #333;
+}
+
+.t-contents {
+    padding: 0 !important
+}
+
+.t-content {
+    padding: 0 1em;
+    background-color: #333;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    color: #b7b7b7;
+    line-height: 1.3em;
+    text-align: justify;
+    z-index: 1;
+    position: relative;
+    max-height: 0;
+    transition: max-height 0.5s ease 0s;
+    overflow: hidden;
+}
+
+.t-content.selected {
+    max-height: 3000px;
+    transition: max-height 1.25s ease 0.5s;
+}
